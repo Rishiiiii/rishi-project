@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        /* Make the image fully responsive */
+        
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .box-slider-content {
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            top: 150px;
+        }
+        
+        .box-slider-text {
+            background: #b5a6a6;
+            background: rgba(0, 0, 0, 0.65);
+            display: inline-block;
+            padding: 20px 30px;
+            max-width: 650px;
+            color: white !important;
+        }
+        
+        span.carousel-control-next-icon {
+            background: black !important;
+            padding: 30px;
+        }
+        
+        span.carousel-control-prev-icon {
+            padding: 30px;
+            background: #131111;
+        }
+        
+        .carousel-item {
+            background-image: url(https://www.w3schools.com/howto/img_nature_wide.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="box-slider-content">
+
+                    <div class="box-slider-text">
+                        <h2 class="box-slide-title">When Services Matters</h2>
+                        <h3 class="box-slide-sub-title">Your Choice is Simple</h3>
+                        <p class="box-slide-description">You have ideas, goals, and dreams. We have a culturally diverse, forward thinking team looking for talent like.</p>
+                        <p><a href="about.html" class="slider btn btn-primary" aria-label="about-us" tabindex="-1">Know Us</a></p>
+                    </div>
+                    <div></div>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="box-slider-content">
+
+                    <div class="box-slider-text">
+                        <h2 class="box-slide-title">When Services Matters</h2>
+                        <h3 class="box-slide-sub-title">Your Choice is Simple</h3>
+                        <p class="box-slide-description">You have ideas, goals, and dreams. We have a culturally diverse, forward thinking team looking for talent like.</p>
+                        <p><a href="about.html" class="slider btn btn-primary" aria-label="about-us" tabindex="-1">Know Us</a></p>
+                    </div>
+                    <div></div>
+
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="box-slider-content">
+
+                    <div class="box-slider-text">
+                        <h2 class="box-slide-title">When Services Matters</h2>
+                        <h3 class="box-slide-sub-title">Your Choice is Simple</h3>
+                        <p class="box-slide-description">You have ideas, goals, and dreams. We have a culturally diverse, forward thinking team looking for talent like.</p>
+                        <p><a href="about.html" class="slider btn btn-primary" aria-label="about-us" tabindex="-1">Know Us</a></p>
+                    </div>
+                    <div></div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+</body>
+
+</html>
